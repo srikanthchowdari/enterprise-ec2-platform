@@ -1,0 +1,26 @@
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+# Local .terraform directories
+.terraform
+
+# Packer
+*.box
+packer_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Credentials (never commit)
+*.pem
+*.key
+.env
